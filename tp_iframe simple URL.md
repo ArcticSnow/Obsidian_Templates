@@ -1,0 +1,1 @@
+<iframe border=1 frameborder=1 src="<% tp.system.prompt("Please enter a URL") %>" width="680" height="480" allowfullscreen\></iframe>
