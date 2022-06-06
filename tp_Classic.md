@@ -1,4 +1,4 @@
-Tags: #template
+Tags: 
 # Title <% tp.file.cursor(1) %>
 
 
