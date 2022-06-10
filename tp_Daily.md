@@ -1,7 +1,6 @@
 Tags: #daily_note  
-```ad-note
-title: Link to: Previous | Current | Next
-collapse: open
+
+**Previous  ← Current  → Next**
 ```dataviewjs
 /*
     previous/next note by date for Daily Notes
@@ -32,10 +31,13 @@ nav.push(next ? '[[' + next[0] + ']]' : none);
 //dv.paragraph(nav.join(" · "));
 dv.paragraph(nav[0] + ' ← ' + nav[1] + ' → ' + nav[2]);
 ```
+---
 # <% tp.file.creation_date("MMMM D") %> Notes 
 
 ## Objective for today
 - <% tp.file.cursor(1) %>
+
+## Notes
 
 
 ---
